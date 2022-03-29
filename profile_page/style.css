@@ -1,0 +1,183 @@
+/* CSS RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* OUR OWN CSS CODE */
+#container{
+    width: 1200px;
+    min-height: 200px;
+}                                   
+/* NAVBAR CSS */
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 110px;
+    background-color: black;
+}
+
+#nav-left {
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+#nav-right {
+    display: flex;
+    padding: 0px 10px;
+    background-color: rgb(29, 189, 189);
+    color: white;
+    margin-right: 0px;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0px;
+}
+
+/* List Direct descendent */
+li > a {
+    text-decoration: none;
+    color: white;
+}
+
+#quick-links{
+    display: flex;
+    margin: 10px;
+    column-gap: 20px;
+    list-style: none;
+}
+
+#quick-links > li{ 
+    margin: 0px 40px;
+    justify-self: flex-start;
+}
+
+
+body {
+    background-color: #f3f3f3;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* User Card*/
+
+.flex-container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    /* justify-content: space-between;
+    align-items: center; */
+}
+
+.user-card {
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #17a2b8;
+    height: 125px;
+    margin-bottom: 50px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h1, 
+.card-body h2,
+.card-body h3,
+.card-body p {
+    margin: 20px 0px;
+}
+
+.avatar-m {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 190px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.icon-s {
+    height: 20px;
+}
+
+a {
+    color: #3a81e6;
+}
+#main-left {
+    flex: 2;
+}
+
+#main-right {
+    flex: 1;
+}
+
+/* Education box */
+
+.education-card {
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.education-header {
+    background-color:rgb(78, 71, 71);
+    height: 55px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.education-body {
+    padding:0px;
+}
+
+/* request box  */
+
+.connection-request {
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    overflow: hidden;
+    color: black
+    
+}
+
+.connection-header {
+    background-color: rgb(78, 71, 71);
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+/* Your connection box */
+
+.your-connections {
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.your-connection-header {
+    background-color: rgb(78, 71, 71);
+    height: 40px;
+    margin-bottom: 20px; 
+}
+
+.general-image {
+    height: 70px;
+}

@@ -1,0 +1,29 @@
+.btn-search, .btn-add, .btn-primary {
+    display: block;
+    margin-bottom: 10px;
+    height: 40px;
+}
+
+.btn-search {
+    font-weight: 900;
+    width: 100px;
+    border-radius: 20px;
+    color: #7dc8c8;
+    border: 2px solid #7dc8c8;
+    background-color: #fff;
+}
+
+.btn-add {
+    width: 40px;
+    background-color: cyan;
+    color: #fff;
+    border-radius: 50%;
+    border: none;
+}
+
+.btn-primary {
+    width: 150px;
+    background-color: #2b78e4;
+    color: white;
+    border: 2px solid black;
+}
